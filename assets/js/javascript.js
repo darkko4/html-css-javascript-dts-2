@@ -105,4 +105,20 @@ if(window.indexedDB==false){
             alert("Berhasil, silahkan refresh halaman untuk melihat perubahan");
         };
     };
+    window.onscroll=function(){
+        scrolling();
+    };
+    var scroll=document.getElementById('backtotop');
+    function scrolling(){
+	    if(document.documentElement.scrollTop >= 600){
+            scroll.classList.remove('sembunyi');
+            scroll.classList.add('scroll_fixed');
+	    }else{
+            scroll.classList.remove('scroll_fixed');
+		    scroll.classList.add('sembunyi');
+	    }
+    }
+    document.getElementById('backtotop').onclick=function(){
+	    document.documentElement.scrollTop=0;
+    };
 }
