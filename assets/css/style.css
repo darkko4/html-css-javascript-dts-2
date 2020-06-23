@@ -2,8 +2,23 @@
     box-sizing: border-box;
 }
 
+html{
+    background-image: url(../img/img_1.svg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
 body {
     margin: 0;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(250, 250, 250, 0.90);
+    word-wrap: break-word;
+    z-index: 1;
 }
 
 a {
@@ -59,7 +74,6 @@ a .menu-icon {
 
 .top-wrapper {
     padding: 220px 0 160px 0;
-    background-image: url(../img/img_1.svg);
     /* background-image: radial-gradient(52.34% 52.34% at 62.58% 50%, rgba(0, 0, 0, 0.2072) 0%, rgba(0, 0, 0, 0.3864) 22.21%, rgba(0, 0, 0, 0.56) 45.37%),url(../img/img_1.svg); */
     background-size: cover;
     color: black;
@@ -70,13 +84,13 @@ a .menu-icon {
 }
 
 .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
+    font-size: 75px;
     letter-spacing: 5px;
     margin-bottom: 10px;
 }
   
 .top-wrapper p {
+    font-size:23px;
     opacity: 0.7;
     margin-bottom: 3px;
 }
@@ -108,7 +122,7 @@ a .menu-icon {
   }
   
   .about-wrapper {
-      padding: 20px 5%;
+      margin-bottom: 50px;
       background-color: #f7f7f7;
       height: 300px;
   }
@@ -120,6 +134,9 @@ a .menu-icon {
   .row {
       padding: 0 5%;
   }
+  h2{
+      font-size:30px;
+  }
 
   .col-5 {
       float: left;
@@ -129,14 +146,38 @@ a .menu-icon {
 
   .col-5 p {
       text-align: justify;
+      font-size:26px;
+}
+
+#form{
+    background-color: rgba(250, 250, 250, 0.96);
+    z-index: 1;
+}
+#form p {
+    text-align:left;
+}
+.form-group{
+    margin:25px 0;
+}
+.form-group input,.form-group textarea{
+    width: 100%;
+}
+#bungkus{
+    max-width:600px;
+    margin:0 auto;
+    padding:30px;
+}
+.clear{
+    clear:both;
 }
 
 .form-wrapper{
     background-image: url(../img/img_2.svg);
-    background-size: cover;
+    background-size: auto;
     top: 0;
     bottom: 0;
     text-align: center;
+    z-index: -1;
 }
 
 .form-wrapper p{

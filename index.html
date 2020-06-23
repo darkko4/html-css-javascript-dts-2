@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B24 Team</title>
+    <link rel='shortcut icon' href='assets/img/favi.ico' type='image/x-icon'/>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/fa/css/all.min.css">
@@ -34,12 +35,12 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi provident esse accusamus rerum repudiandae
                 non! Facere voluptate, tempora ipsa consequatur facilis ab, exercitationem debitis culpa asperiores nisi
                 architecto quasi omnis?</p>
-            <div class="btn-wrapper">
-                <a href="#" class="btn signup">Daftar Sekarang</a>
+            <div class="btn-wrapper" id="about">
+                <a href="#daftar" class="btn signup">Daftar Sekarang</a>
             </div>
         </div>
     </div>
-    <div class="about-wrapper" id="about">
+    <div class="about-wrapper">
         <div class="heading">
             <h2>About Us</h2>
         </div>
@@ -56,23 +57,26 @@
             </div>
         </div>
     </div>
-    <div class="form-wrapper" id="daftar">
-        <h2>Daftar Sekarang</h2>
-        <form action="">
-            <div class="form-group">
-                <p>Email</p>
-                <input placeholder="Email">
+    <div class='clear'></div>
+    <div class="form-wrapper">
+        <div id="form">
+            <div id="bungkus">
+                <h2>Daftar Sekarang</h2>
+                <div class="form-group">
+                    <p>Email</p>
+                    <input placeholder="Email" id="email">
+                </div>
+                <div class="form-group">
+                    <p>Nama Lengkap</p>
+                    <input placeholder="Nama Lengkap" id="nama">
+                </div>
+                <div class="form-group">
+                    <p>Alamat :</p>
+                    <textarea placeholder="Alamat"></textarea><br/><br/>
+                    <input class="contact-submit" id="daftar" type="submit" value="Kirim">
+                </div>
             </div>
-            <div class="form-group">
-                <p>Nama Lengkap</p>
-                <input placeholder="Nama Lengkap">
-            </div>
-            <div class="form-group">
-                <p>Alamat :</p>
-                <textarea placeholder="Alamat"></textarea>
-            </div>
-            <input class="contact-submit" type="submit" value="Kirim">
-        </form>
+        </div>
     </div>
     <footer>
         <div class="container">
