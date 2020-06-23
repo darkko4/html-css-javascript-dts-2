@@ -1,0 +1,57 @@
+@media all and (max-width: 1000px) {
+    header {
+        height: 70px;
+    }
+
+    .header-logo {
+        float: left;
+        text-align: left;
+    }
+
+    .nav {
+        float: right;
+        text-align: left;
+        height: 70px;
+    }
+
+    .nav a {
+        padding: 15px 20px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .top-wrapper h1 {
+        font-size: 36px;
+    }
+
+    .top-wrapper p {
+        text-align: justify;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    a .menu-icon {
+        display: block;
+        float: right;
+        color: white;
+        padding: 22px 10px;
+        font-size: 25px;
+    }
+
+    .about-wrapper {
+        height: 400px;
+    }
+
+    .col-5 {
+        width: 100%;
+    }
+
+    input, textarea {
+        width: 80%;
+        margin: 10px 0;
+        font-size: 18px;
+        border: 1px solid #dee7ec;
+    }
+}
