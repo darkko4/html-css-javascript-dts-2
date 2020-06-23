@@ -135,6 +135,7 @@ a .menu-icon {
       padding: 0 5%;
   }
   h2{
+      text-align: center;
       font-size:30px;
   }
 
@@ -162,7 +163,16 @@ a .menu-icon {
 .form-group input,.form-group textarea{
     width: 100%;
 }
-#bungkus{
+input[type='button']{
+    background-color:#999;
+    color:#fff;
+    cursor:pointer;
+}
+input[type='button']:hover{
+    background-color:#555;
+    color:#eee;
+}
+.bungkus{
     max-width:600px;
     margin:0 auto;
     padding:30px;
@@ -182,6 +192,31 @@ a .menu-icon {
 
 .form-wrapper p{
     margin: 0;
+}
+
+table{
+	width:100%;
+    border-spacing:1px;
+    text-align:center;
+    font-size:18px;
+}
+tbody{
+    color:#fff;
+}
+th,td{
+    padding: 15px 20px;
+}
+th{
+    background-color:cadetblue;
+}
+tr:nth-child(2n+1){
+	background-color:#666;
+}
+tr:nth-child(2n){
+	background-color:#555;
+}
+#datatabel{
+    text-align:center;
 }
 
 input, textarea {

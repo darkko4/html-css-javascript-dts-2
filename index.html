@@ -60,7 +60,7 @@
     <div class='clear'></div>
     <div class="form-wrapper">
         <div id="form">
-            <div id="bungkus">
+            <div class="bungkus">
                 <h2>Daftar Sekarang</h2>
                 <div class="form-group">
                     <p>Email</p>
@@ -72,11 +72,26 @@
                 </div>
                 <div class="form-group">
                     <p>Alamat :</p>
-                    <textarea placeholder="Alamat"></textarea><br/><br/>
-                    <input class="contact-submit" id="daftar" type="submit" value="Kirim">
+                    <textarea placeholder="Alamat" id="alamat"></textarea><br/><br/>
+                    <input class="contact-submit" id="daftar" type="button" value="Kirim">
                 </div>
             </div>
         </div>
+    </div>
+    <div class="bungkus">
+        <h2>Data Pendaftar</h2>
+        <table id="datatabel">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>email</th>
+                    <th>nama</th>
+                    <th>alamat</th>
+                </tr>
+            </thead>
+            <tbody id="registered">
+            </table>
+        </table>
     </div>
     <footer>
         <div class="container">
@@ -84,6 +99,7 @@
             <p>Copyright &copy; 2020 | Team B24 - DTS 2</p>
         </div>
     </footer>
+    <script src='assets/js/javascript.js'></script>
 </body>
 
 </html>
