@@ -46,6 +46,7 @@ if(window.indexedDB==false){
             if(jumlah_data==0){
                 var kosong=document.createElement('TR');
                 var isi=document.createElement('TD');
+                isi.setAttribute('colspan','4');
                 isi.innerHTML='Data masih kosong';
                 kosong.appendChild(isi);
                 kosong.setAttribute('id','kosong');
