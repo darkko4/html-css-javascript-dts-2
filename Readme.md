@@ -7,11 +7,7 @@ Projek ini digunakan untuk memenuhi tugas kelompok pada pelatihan Digital Talent
 
 
 ## Installation
-taruh isi folder html-css-javascript-dts-2 ke dalam direktori root (/) atau public_html pada website
-|root (/)
-|d____assets
-|-____index.html
-|-____Readme.md
+taruh isi folder html-css-javascript-dts-2 ke dalam direktori root (/) atau public_html
 
 
 ## Usage
