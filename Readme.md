@@ -1,5 +1,5 @@
 # Projek HTML,CSS,JS
-Projek ini digunakan untuk memenuhi tugas kelompok pada pelatihan Digital Talent Batch 2.
+Projek ini digunakan untuk memenuhi tugas kelompok pada pelatihan Digital Talent Batch 2 dengan tema pelatihan "HTML CSS Javacsript". Kami adalah kelompok dengan codename "B24".
 
 
 ## Requirements
